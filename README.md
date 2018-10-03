@@ -1,5 +1,21 @@
 # multi-instance learning
 
+## Run
+
+Execute the script to train a linear decision boundary and generate the above heatmaps.
+
+```
+$ python3 mitr.py
+```
+
+View tensorboard plots at localhost:6006
+
+```
+$ tensorboard --logdir=mitr/mitr_logs
+```
+
+
+
 ## Concepts
 
 Based on the paper: 
@@ -32,22 +48,6 @@ where
 ![heatmaps](./heatmap.png)
 #### Training loss
 ![loss](./loss.png)
-
-## Usage
-
-Execute the script to train a linear decision boundary and generate the above heatmaps.
-
-```
-$ python3 mitr.py
-```
-
-View tensorboard plots at localhost:6006
-
-```
-$ tensorboard --logdir=mitr/mitr_logs
-```
-
-
 
 
 
