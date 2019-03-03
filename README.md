@@ -1,5 +1,15 @@
 # multi-instance learning
 
+```
+
+#### Learned decision boundaries 	at successive training iterations
+![heatmaps](./heatmap.png)
+#### Training loss
+![loss](./loss.png)
+
+
+
+
 ## Run
 
 Execute the script to train a linear decision boundary and generate the above heatmaps.
@@ -33,14 +43,6 @@ where
     Q_ij := pairwise loss between predicted and atual group outputs
     N := number of individual training inputs (batch size)
     G := number of group training inputs (group batch size)
-
-```
-
-#### Learned decision boundaries 	at successive training iterations
-![heatmaps](./heatmap.png)
-#### Training loss
-![loss](./loss.png)
-
 
 
 
