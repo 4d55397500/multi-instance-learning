@@ -1,6 +1,6 @@
 # multi-instance learning
 
-```
+
 
 #### Learned decision boundaries 	at successive training iterations
 ![heatmaps](./heatmap.png)
@@ -46,3 +46,4 @@ where
 
 
 
+```
