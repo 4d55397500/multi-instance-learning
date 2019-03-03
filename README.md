@@ -2,7 +2,7 @@
 
 
 
-#### Learned decision boundaries 	at successive training iterations
+#### Learned decision boundaries at successive training iterations
 ![heatmaps](./heatmap.png)
 #### Training loss
 ![loss](./loss.png)
