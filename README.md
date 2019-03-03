@@ -1,5 +1,8 @@
 # multi-instance learning
+A reference implementation of multi-instance learning. 
 
+In this case the hypothesis space is linear boundaries and the 
+group labels are fraction of the corresponding training subset in the positive class.
 
 
 #### Learned decision boundaries at successive training iterations
