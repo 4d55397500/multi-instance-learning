@@ -16,18 +16,10 @@ $ tensorboard --logdir=mitr/mitr_logs
 
 
 
-## Concepts
+## Background
 
 Based on the paper: 
 http://mdenil.com/media/papers/2015-deep-multi-instance-learning.pdf
-
-
-Conventially supervised learning is given a set of labels `y_i` for corresponding inputs `x_i`, and asked to predict new outputs `y'`.
-
-In multi-instance learning the labels `l_I` are given for corresponding sets of inputs `{x}_I`, and the algorithm must predict individual new outputs `y'`.
-
-
-In this implementation a linear class boundary is learned by being passed random uniform subsets `{x}_I` as inputs and given the fraction interesecting the positive class as labels `l_I`. 
 
 The loss function consists of two terms; one a similarity term on inputs and the other a group loss term:
 
