@@ -9,7 +9,7 @@ group labels are fraction of the corresponding training subset in the positive c
 ## Background
 
 Based on the paper: 
-http://mdenil.com/media/papers/2015-deep-multi-instance-learning.pdf
+https://mdenil.com/static/papers/2015-deep-multi-instance-learning.pdf
 
  idea: transfer knowledge of labels on groups (subsets of data) to learned labels on individual points. often labels on groups are present/cheap, labels on individuals are expensive/rare. Example: Suppose known voting results by neighborhood, as well as features of (but not specific voting result) of individuals. Multi-instance learning uses this information to infer voting likelihood of each individual.
 
